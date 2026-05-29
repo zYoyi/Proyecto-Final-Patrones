@@ -1,0 +1,33 @@
+{
+  "name": "patrondecorator-backend",
+  "version": "1.0.0",
+  "description": "API REST con NestJS — Patrón Decorator para sistema hotelero",
+  "author": "Jordi Ortega",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "build": "nest build",
+    "start": "node dist/src/main",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/src/main",
+    "vercel-build": "nest build"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.4.15",
+    "@nestjs/core": "^10.4.15",
+    "@nestjs/platform-express": "^10.4.15",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "nodemailer": "^8.0.5",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.5",
+    "@nestjs/schematics": "^10.2.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.12.0",
+    "@types/nodemailer": "^8.0.0",
+    "typescript": "^5.7.3"
+  }
+}
